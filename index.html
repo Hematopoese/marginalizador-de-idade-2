@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto MK 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+
+            <div class="first">
+                <label for="">Ano de Nascimento: </label>
+                <input type="number" id="ano">
+            </div>
+
+            <div class="second">
+                <strong>Sexo: </strong>
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem" checked>
+                <label for="fem">Feminino</label>
+            </div>
+
+            <div class="btn">
+                <button type="button" onclick="verificar()">Verificar</button>
+            </div>
+
+            <p id="res" class="alert">
+
+
+
+            </p>
+
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
